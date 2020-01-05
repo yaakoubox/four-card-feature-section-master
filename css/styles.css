@@ -2,6 +2,7 @@
 body{
   font-size: 15px;
   font-family: 'Poppins', sans-serif;
+
 }
 .DivMain{
   text-align: center;
@@ -25,7 +26,7 @@ body{
 }
 .Supervisor{
   position: absolute;
-  display: inline-block;
+
   width: 335px;
   height: 235px;
   border-top : 4px solid hsl(180, 62%, 55%);
@@ -34,7 +35,7 @@ body{
 }
 .Team_Builder{
   position: absolute;
-  display: inline-block;
+
   width: 335px;
   height: 235px;
   border-top: 4px solid hsl(0, 78%, 62%);
@@ -43,7 +44,7 @@ body{
 }
 .Karma{
   position: absolute;
-  display: inline-block;
+
   width: 335px;
   height: 235px;
   border-top:4px solid hsl(34, 97%, 64%);
@@ -85,4 +86,23 @@ p{
   margin: auto;
   padding-top: 20px;
   font-size: 28px;
+}
+
+
+
+@media only screen and (max-width: 1079px) {
+  .Supervisor , .Team_Builder , .Karma , .Calculator{
+    position: relative;
+    margin: 20px 20px 20px 20px ;
+  }
+  .all{
+    width: 375px;
+    align: center;
+  }
+  .DivMain{
+    margin: auto;
+    width: 100%;
+  }
+
+
 }
