@@ -28,7 +28,7 @@ body{
   display: inline-block;
   width: 335px;
   height: 235px;
-  border-top : 2px solid hsl(180, 62%, 55%);
+  border-top : 4px solid hsl(180, 62%, 55%);
   box-shadow: 0px 5px 10px hsl(229, 6%, 66%);
   margin: 155px 12px;
 }
@@ -37,7 +37,7 @@ body{
   display: inline-block;
   width: 335px;
   height: 235px;
-  border-top: 2px solid hsl(0, 78%, 62%);
+  border-top: 4px solid hsl(0, 78%, 62%);
   box-shadow: 0px 5px 10px hsl(229, 6%, 66%);
   margin: 20px 372.5px ;
 }
@@ -46,7 +46,7 @@ body{
   display: inline-block;
   width: 335px;
   height: 235px;
-  border-top:2px solid hsl(34, 97%, 64%);
+  border-top:4px solid hsl(34, 97%, 64%);
   box-shadow: 0px 5px 10px hsl(229, 6%, 66%);
   margin: 295px 372.5px 20px 372.5px;
 
@@ -55,13 +55,13 @@ body{
   position: absolute;
   width: 335px;
   height: 235px;
-  border-top:2px solid hsl(212, 86%,  64%);
+  border-top:4px solid hsl(212, 86%,  64%);
   box-shadow: 0px 5px 15px hsl(229, 6%, 66%);
   margin: 155px 0px 0px 733px;
 
 }
 div{
-  border-radius: 14%;
+  border-radius: 2%;
 }
 img{
   position: relative;
